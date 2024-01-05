@@ -1,7 +1,7 @@
 {
     'name': 'First Application',
     'version': '1.0',
-    'description': 'Emdad First Application',
+    'description': 'Emdad First Application VErsion 1',
     'summary': '',
     'author': '',
     'website': '',
