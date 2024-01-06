@@ -1,6 +1,6 @@
 {
-    'name': 'First Application',
-    'version': '1.0',
+    'name': 'Hello Application',
+    'version': '2.0',
     'description': 'Emdad First Application VErsion 1',
     'summary': '',
     'author': '',
