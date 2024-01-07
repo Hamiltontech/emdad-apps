@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <emdad>
-    <record id="emdad_products_view_form" model="ir.ui.view">
-        <field name="name">emdad_products.view.form</field>
+    <record id="view_account_emdad_products" model="ir.ui.view">
+        <field name="name">emdad.products.view.form</field>
         <field name="model">emdad.products</field>
         <field name="arch" type="xml">
-            <form string="">
-                <sheet>
-                    <group>
-                        <field name="name"/>
-                    </group>
-                </sheet>
+            <form class="o_sale_order">
+         
+                              <sheet>
+            <div class="oe_title">
+                <h1>
+                    <field name="name"/>
+                </h1>
+            </div>
+                  
+                    </sheet>
             </form>
         </field>
-    </record>
+    </record> 
     <record id="emdad_products_view_kanban" model="ir.ui.view">
         <field name="name">emdad_products.view.kanban</field>
         <field name="model">emdad.products</field>
